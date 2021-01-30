@@ -11,6 +11,6 @@ function validate(){
     }
 
     function Redirect() {
-        window.location = "./index.html";
+        window.location = __dirname + "/index.html";
      }
 }
