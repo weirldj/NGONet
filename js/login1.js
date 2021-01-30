@@ -11,6 +11,7 @@ function validate(){
     }
 
     function Redirect() {
-        window.location = __dirname + "/index.html";
+        window.location.replace("https://weirldj.github.io/NGONet/index.html");
+        //window.location = __dirname + "/index.html";
      }
 }
